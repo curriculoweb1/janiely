@@ -1,0 +1,116 @@
+/* Set the container width to 100% of the viewport width on screens wider than 768 pixels */
+
+img {
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.education h2,
+  .experience h2,
+  .skills h2,
+  .contact h2 {
+    background-color:rgb(105,62,127) ;
+    color: aliceblue;
+  }
+  .botao{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 75px;
+    margin: 0 auto; 
+  }
+
+  .botao2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4c9baf;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 120px;
+    margin: 0 auto; 
+  }
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  
+}
+
+/* Set the profile, education, experience, skills, and contact sections to a stacked layout on screens wider than 768 pixels */
+@media (min-width: 768px) {
+  .profile,
+  .education,
+  .experience,
+  .skills,
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile h2,
+  .education h2,
+  .experience h2,
+  .skills h2,
+  .contact h2 {
+    margin-top: 20px;
+
+  }
+  .profile
+  .education h2,
+  .experience h2,
+  .skills h2,
+  .contact h2 {
+    background-color:rgb(105,62,127) ;
+    
+  }
+  .profile p,
+  .education p,
+  .experience p,
+  .skills p,
+  .contact p {
+    margin-top: 10px;
+  }
+}
+
+
+
+body {
+  background-color: rgb(237,202, 255);
+  font-family: Arial, sans-serif; /* Adicionar a propriedade font-family */
+  
+}
+
+
+
+/* Add hover effect to the WhatsApp button */
+a:hover {
+  background-color: #3e8e41;
+}
+
+.profile img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.central {
+  text-align: center;
+}
+.profile{background-color: rgb(105,62,127);
+padding-bottom:  30px;
+padding-top:  30px;
+color:aliceblue}
+
